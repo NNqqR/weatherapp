@@ -1,4 +1,4 @@
-// 获取所有的城市
+﻿// 获取所有的城市
 let cities,weatherobj;
 
 $.ajax({
@@ -25,7 +25,7 @@ $.ajax({
 		}
 	}
 })
-$.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
+$.getScript("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
     getFullWeather(remote_ip_info.city);
 });
 
